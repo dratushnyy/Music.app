@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.gitignore.wsp
+VkAppData.h
+VKSdk.framework/
+Music.xcodeproj/
+MusicTests/
+MusicUITests/
+info.plist
