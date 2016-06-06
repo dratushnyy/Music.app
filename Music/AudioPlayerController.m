@@ -59,16 +59,11 @@
     
     if (object == self.player && [keyPath isEqualToString:@"status"]) {
         if (self.player.status == AVPlayerStatusFailed) {
-            NSLog(@"AVPlayer Failed");
             self.playerReady = false;
             
         } else if (self.player.status == AVPlayerStatusReadyToPlay) {
-            NSLog(@"AVPlayerStatusReadyToPlay");
             self.playerReady = true;
 
-        } else if (self.player.status == AVPlayerItemStatusUnknown) {
-            NSLog(@"AVPlayer Unknown");
-            
         }
     }
 }
